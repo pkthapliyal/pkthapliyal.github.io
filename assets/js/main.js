@@ -211,20 +211,20 @@ let tech_stacks = [
   {
     tech_name: "NodeJS",
     img_link:
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png"
   },
   {
     tech_name: "ExpressJS",
     img_link:
-    'https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png'
-    
+      'https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png'
+
   },
   {
     tech_name: "mongoDb",
     img_link: "https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png",
   },
-  
-  
+
+
   {
     tech_name: "JavaScript",
     img_link:
@@ -254,9 +254,9 @@ tech_stacks.forEach((tech) => {
   name.innerText = tech.tech_name;
 
   comp.append(img, name);
-  comp.setAttribute('class','skills-card')
+  comp.setAttribute('class', 'skills-card')
   name.setAttribute('class', "skills-card-name")
-  img.setAttribute("class",'skills-card-img')
+  img.setAttribute("class", 'skills-card-img')
 
   techStackDiv.append(comp);
 });
@@ -279,7 +279,7 @@ let tech_stacks_02 = [
       "https://static.javatpoint.com/tutorial/postman/images/postman-tutorial.png",
   },
 
- 
+
 
   {
     tech_name: "Git",
@@ -299,21 +299,21 @@ tech_stacks_02.forEach((tech2) => {
   // comp2.style.flexDirection = "column"
   // comp2.style.justifyContent = "space-between"
   // comp2.style.alignItems = "center"
-  
+
   let img = document.createElement("img");
   img.src = tech2.img_link;
   img.alt = tech2.tech_name;
-  img.setAttribute("class",'skills-card-img')
+  img.setAttribute("class", 'skills-card-img')
   // img.style.width = "70%"
   // img.style.height = "100%"
 
   let name = document.createElement("p");
   name.innerText = tech2.tech_name;
   name.setAttribute('class', "skills-card-name")
-  
+
 
   comp2.append(img, name);
-  comp2.setAttribute('class','skills-card')
+  comp2.setAttribute('class', 'skills-card')
 
   techStackDiv02.append(comp2);
 });
