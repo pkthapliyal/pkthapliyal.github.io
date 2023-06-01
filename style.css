@@ -1432,13 +1432,13 @@ img {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 40px 20px;
-  padding: 20px;
+  padding: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 #tech>div {
-  width: 40%;
-  height: 70%;
+  width: 10%;
+  height: 10%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -1462,14 +1462,14 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px 20px;
-  padding: 20px;
+  padding: 10px;
   margin: auto;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 #tech2>div {
-  width: 25%;
-  height: 60%;
+  width: 10%;
+  height: 10%;
   margin: auto;
   display: flex;
   flex-direction: column;
