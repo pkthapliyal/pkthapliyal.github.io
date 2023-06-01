@@ -1437,8 +1437,8 @@ img {
 }
 
 #tech>div {
-  width: 10%;
-  height: 10%;
+  width: 35%;
+  /* height: 10%; */
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -1468,8 +1468,8 @@ img {
 }
 
 #tech2>div {
-  width: 10%;
-  height: 10%;
+  width: 15%;
+  /* height: 10%; */
   margin: auto;
   display: flex;
   flex-direction: column;
