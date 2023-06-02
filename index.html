@@ -450,9 +450,7 @@
     <section style="width: 85%; margin: auto; margin-top: 70px" class="react-activity-calendar">
       <h2 class="section__title">Github Contributions</h2>
       <span class="section__subtitle">My Contributions</span>
-      <div class="calender" id="github-streak-stats">
-        <img id="github-streak-stats" src="https://streak-stats.demolab.com?user=pkthapliyal&theme=buefy"
-          alt="streak-stat" />
+      <div class="calender">
         <!-- Loading stuff -->
         <!-- Loading the data just for you. -->
       </div>
@@ -463,11 +461,22 @@
         <h2 class="section__title">Github Analytics</h2>
         <span style="margin-bottom: 30px" class="section__subtitle">My Contributions</span>
         <div style="display: flex">
-          <img style="width: 50%; height: 200px" class="angit" id="github-stats-card"
-            src="https://github-readme-stats.vercel.app/api?username=pkthapliyal&theme=buefy&show_icons=true" alt="" />
-          <img id="github-top-langs" style="width: 50%; height: 200px" class="angit"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=pkthapliyal&theme=buefy&layout=compact"
-            alt="" />
+          <div>
+            <img id="github-streak-stats"
+              src="https://github-readme-streak-stats.herokuapp.com?user=pkthapliyal&theme=react&theme=buefy"
+              alt="streak-stat" />
+            <br>
+            <img style="width: 50%; height: 200px" class="angit" id="github-stats-card"
+              src="https://github-readme-stats.vercel.app/api?username=pkthapliyal&theme=buefy&show_icons=true"
+              alt="" />
+          </div>
+          <div>
+            <img id="github-top-langs" style="width: 50%; height: 200px" class="angit"
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=pkthapliyal&theme=buefy&layout=compact"
+              alt="" />
+          </div>
+
+
 
         </div>
       </div>
@@ -601,8 +610,6 @@
 
 <script>
   // or enable responsive functionality
-  // GitHubCalendar(".calender", "pkthapliyal", { responsive: true });
-
-
+  GitHubCalendar(".calender", "pkthapliyal", { responsive: true });
 
 </script>
