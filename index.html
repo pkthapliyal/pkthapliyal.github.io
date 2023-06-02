@@ -413,14 +413,44 @@
 
 
       </div>
+      <!-- Github Stats Section Start -->
+      <!-- <section class="react-activity-calendar">
+        <div class="heading">
+          <h2>GitHub Statistics</h2>
+          <span>& Calender</span>
+        </div>
+        <br>
+        <div class="calendar">
+          Loading the data just for you.
+        </div>
+        <br>
+        <div id="git-stat">
+          <div>
+            <img id="github-streak-stats"
+              src="https://github-readme-streak-stats.herokuapp.com?user=rbhomale17&theme=react&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
+              alt="streak-stat" />
+            <br>
+            <img id="github-stats-card"
+              src="https://github-readme-stats.vercel.app/api?username=rbhomale17&count_private=true&theme=react"
+              alt="stat-card" />
+          </div>
+          <div>
+            <img id="github-top-langs"
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=rbhomale17&theme=react"
+              alt="top_languages" />
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Github Stats Section End -->
     </section>
 
     <!--==================== Git Hub section ====================-->
 
-    <section style="width: 85%; margin: auto; margin-top: 70px">
+    <section style="width: 85%; margin: auto; margin-top: 70px" class="react-activity-calendar">
       <h2 class="section__title">Github Contributions</h2>
       <span class="section__subtitle">My Contributions</span>
-      <div class="react-activity-calender" id="github-streak-stats">
+      <div class="calender" id="github-streak-stats">
         <!-- Loading stuff -->
         <!-- Loading the data just for you. -->
       </div>
@@ -555,6 +585,8 @@
     </div>
   </footer>
 
+
+
   <!--==================== SCROLL TOP ====================-->
   <a href="#" class="scrollup" id="scroll-up">
     <i class="uil uil-arrow-up scrollup__icon"></i>
@@ -574,7 +606,7 @@
 
 <script>
   // or enable responsive functionality
-  GitHubCalendar(".react-activity-calender", "pkthapliyal", { responsive: true });
+  GitHubCalendar(".calender", "pkthapliyal", { responsive: true });
 
 
 
